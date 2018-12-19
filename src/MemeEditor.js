@@ -28,7 +28,7 @@ class MemeEditor extends Component {
       
       
     render() {
-        const {selectedImageURL} = this.props;
+        const {currentText, selectedImageURL} = this.state;
 
             return (
                 <div>

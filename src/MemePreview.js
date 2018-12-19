@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class MemePreview extends Component {
       render() {
-        const {selectedImageURL} = this.props;
+        const {currentText, selectedImageURL} = this.props;
         return (
             <div>
                 MemePreview
